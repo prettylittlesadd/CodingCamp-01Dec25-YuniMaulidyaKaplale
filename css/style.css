@@ -3,7 +3,7 @@
   width: 75px;
   background-color: lightgrey;
   border-radius: 50%;
-  background-image: url("logo 1.jpeg");
+  background-image: url("../img/logo1.jpeg");
   background-size: cover;
 }
 
