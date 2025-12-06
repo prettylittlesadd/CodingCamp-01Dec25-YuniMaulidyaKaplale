@@ -14,9 +14,9 @@
 }
 
 header-title {
-  margin-left: 50px; /* Jarak antara logo dan tulisan (biarkan jika Anda suka) */
+  margin-left: 150px; /* Jarak antara logo dan tulisan (biarkan jika Anda suka) */
   font-weight: bold; /* Sudah ada, tapi kita tegaskan */
   font-size: 3rem; /* UKURAN BESAR: Membuat teks jauh lebih besar (3rem = sekitar 48px) */
-  color: #228b22 !important; /* WARNA HIJAU TEGAS: Menggunakan warna seperti Forest Green */
+  color: #228b22; /* WARNA HIJAU TEGAS: Menggunakan warna seperti Forest Green */
   letter-spacing: 2px;
 }
