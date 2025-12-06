@@ -2,13 +2,15 @@
 welcomeMessage();
 
 /// Function to display welcome message
-function welcomeMessage() {
-  /// Prompt user for their name
-  let userResponse = prompt("Welcome to Our Website! Input your name:");
+function showPersonalizedWelcome() {
+  // 1. Tampilkan Pop-up dan Minta Input Nama
+  // Pop-up Anda: "Welcome to Our Website! Input your name:"
+  let userName = prompt("Welcome to Our Website! Input your name:");
 
-  /// If user cancels or inputs empty string, default to "Guest"
-  if (userResponse === null || userResponse.trim() === "") {
-    userResponse = "Guest";
+  // 2. Tentukan nama yang akan ditampilkan
+  // Jika user menekan Batal (null) atau mengosongkan input (trim() === "")
+  if (userName === null || userName.trim() === "") {
+    userName = "Mate"; // Kembali ke nama default
   }
 
   /// Display personalized welcome message on the webpage
