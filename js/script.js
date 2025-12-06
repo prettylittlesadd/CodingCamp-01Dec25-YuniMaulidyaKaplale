@@ -15,7 +15,7 @@ function showPersonalizedWelcome() {
 
   /// Display personalized welcome message on the webpage
   document.getElementById("welcome-speech").innerHTML =
-    "Hello, " + userResponse + "! Welcome to Our Website!";
+    "Hello, " + userResponse + "! Welcome to Vitality Blend!";
 }
 
 /// Form validation function (currently empty)
